@@ -186,25 +186,65 @@ A desktop inventory and billing system featuring product management, sales track
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Wathshala Amarasinghe GitHub profile details" width="100%">
+  <img
+    src="./profile-summary-card-output/github_dark/0-profile-details.svg"
+    alt="Wathshala Amarasinghe GitHub profile details"
+    width="100%"
+  >
 </p>
 
 <p align="center">
-  <img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Wathshala Amarasinghe GitHub statistics" width="49%">
-  <img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Wathshala Amarasinghe repositories by language" width="49%">
-</p>
-
-<p align="center">
-  <img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" alt="Wathshala Amarasinghe most committed languages" width="49%">
-  <img src="./profile-summary-card-output/github_dark/4-productive-time.svg" alt="Wathshala Amarasinghe productive development time" width="49%">
+  <img
+    src="./profile-summary-card-output/github_dark/3-stats.svg"
+    alt="Wathshala Amarasinghe GitHub statistics"
+    width="49%"
+  >
+  <img
+    src="./profile-summary-card-output/github_dark/4-productive-time.svg"
+    alt="Wathshala Amarasinghe productive development time"
+    width="49%"
+  >
 </p>
 
 ### 🔥 Contribution Streak
 
 <p align="center">
-  <img src="./profile/streak.svg" alt="Wathshala Amarasinghe GitHub contribution streak" width="65%">
+  <img
+    src="./profile/streak.svg"
+    alt="Wathshala Amarasinghe GitHub contribution streak"
+    width="65%"
+  >
 </p>
 
+---
+
+## 👩‍💻 Programming, Markup and Query Languages
+
+The following languages represent my professional, academic and independent project experience—not only the code currently available in my public repositories.
+
+<p align="center">
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MDX](https://img.shields.io/badge/MDX-1B1F24?style=for-the-badge&logo=mdx&logoColor=white)
+
+</p>
+
+### Currently Detected in Public Repositories
+
+<p align="center">
+
+![TypeScript](https://img.shields.io/badge/TypeScript-Current%20Primary-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![MDX](https://img.shields.io/badge/MDX-Detected-1B1F24?style=flat-square&logo=mdx&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-Detected-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Detected-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+</p>
 ---
 
 ## 🤝 Let's Connect
