@@ -78,8 +78,9 @@ Designed EMR, HIS and financial-product interfaces, from research to developer h
 | Project | Focus | Technology |
 |---|---|---|
 | [Personal Portfolio](https://wathshala-amarasinghe-portfolio.vercel.app) | UI/UX case studies and professional profile | Next.js, TypeScript, Tailwind CSS, GSAP, MDX |
-| [KAVON.net](https://kavon-net-official.vercel.app) · [Repository](https://github.com/wathshala-amarasinghe/kavon.net) | Full-stack streetwear store with storefront, admin dashboard, checkout and account verification | Next.js, React, TypeScript, Express.js, MongoDB, Tailwind CSS, Cloudinary |
-| [KAVON Stock Sheet](https://kavon-stock-sheet.vercel.app) · [Repository](https://github.com/wathshala-amarasinghe/kavon-stock-sheet) | Internal stock-order management and branded PDF generation | Next.js, TypeScript, Tailwind CSS, Supabase, shadcn/ui, React PDF |
+| [KAVON.net](https://kavon-net-official.vercel.app) · [Repository](https://github.com/wathshala-amarasinghe/kavon.net) | Full-stack streetwear store with storefront, admin dashboard and checkout | Next.js, React, TypeScript, Express.js, MongoDB, Tailwind CSS |
+| [KAVON Stock Sheet](https://kavon-stock-sheet.vercel.app) · [Repository](https://github.com/wathshala-amarasinghe/kavon-stock-sheet) | Stock-order management and branded PDF generation | Next.js, TypeScript, Tailwind CSS, Supabase, shadcn/ui, React PDF |
+| [Smart Web POS v1](https://github.com/wathshala-amarasinghe/smart-web-pos-v1) | POS billing, inventory, customers, suppliers, reporting and analytics | Next.js, TypeScript, Prisma, PostgreSQL, Tailwind CSS, shadcn/ui, Redis |
 | Healthcare Systems | EMR, HIS and clinical workflow design | Figma, user research, prototyping, usability testing, accessibility |
 | Event Management System | Venue booking, task assignment and role-based access | HTML, CSS, JavaScript, PHP, MySQL |
 | Online Gift Shop | Authentication, shopping cart, ordering and administration | MongoDB, Express.js, React, Node.js |
