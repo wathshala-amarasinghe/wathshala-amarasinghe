@@ -1,0 +1,62 @@
+name: Update GitHub Profile Statistics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 0 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-profile-stats.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-statistics
+  cancel-in-progress: false
+
+jobs:
+  generate-statistics:
+    name: Generate profile statistics
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+
+      - name: Generate GitHub summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@09ba4dde3f9b05828cb99553561db3f4ff07703f
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          UTC_OFFSET: "5.5"
+          AUTO_PUSH: false
+          THEME: "github_dark"
+          ANIMATION: "none"
+          EXCLUDE: ""
+
+      - name: Generate GitHub streak card
+        uses: DenverCoder1/github-readme-streak-stats@f69662e10794e8757b12d3303a113a30b01c9bc9
+        with:
+          options: user=${{ github.repository_owner }}&theme=github-dark-blue&hide_border=true&disable_animations=true&timezone=Asia/Colombo
+          path: profile/streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit generated statistics
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile-summary-card-output profile/streak.svg
+
+          if git diff --cached --quiet; then
+            echo "No statistics changes to commit."
+          else
+            git commit -m "Update GitHub profile statistics"
+            git push
+          fi
