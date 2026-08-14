@@ -42,19 +42,31 @@ user research, interface design and practical software-engineering knowledge.
 
 ## 💼 Professional Experience
 
-### UX/UI Designer Intern
+Over one year of combined experience in UI/UX design, frontend development and software engineering.
 
-**Swiztech Solutions (Pvt) Ltd — Colombo, Sri Lanka**  
+### Associate Software Engineer
+
+**Medi Connect Pvt Ltd**  
+*July 2026 – Present*
+
+- Develop and improve healthcare software features.
+- Translate requirements into interfaces, test functionality and resolve issues.
+
+### Associate UI/UX Developer
+
+**Tech Connect Global (Pvt) Ltd**  
+*January 2026 – June 2026*
+
+- Designed and developed corporate and healthcare websites.
+- Worked with Next.js, React, TypeScript, Tailwind CSS and Vite.
+
+### UI/UX Designer Intern
+
+**Tech Connect Global (Pvt) Ltd**  
 *July 2025 – December 2025*
 
-- Designed interfaces for complex, data-driven web applications.
-- Created user flows, site maps, wireframes and high-fidelity prototypes.
-- Contributed to Electronic Medical Record and Hospital Information System modules.
-- Designed financial dashboards, transaction flows and analytics interfaces.
-- Conducted user research and usability evaluations.
-- Built reusable components and scalable design patterns.
-- Collaborated with developers and product stakeholders in an Agile environment.
-- Improved interface accessibility, consistency and responsiveness.
+- Designed EMR, HIS and personal-finance application interfaces.
+- Created user flows, wireframes and prototypes while supporting usability and accessibility.
 
 ---
 
