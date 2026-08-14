@@ -221,14 +221,19 @@ A desktop inventory and billing system featuring product management, sales track
 ## 📈 Languages Used Across My Experience
 
 ```mermaid
-xychart-beta
-    title "Programming, Markup and Query Languages Used"
-    x-axis ["Java", "JavaScript", "TypeScript", "PHP", "HTML", "CSS", "SQL", "MDX"]
-    y-axis "Used in projects" 0 --> 1
-    bar [1, 1, 1, 1, 1, 1, 1, 1]
+pie showData
+    title Programming, Markup and Query Languages Used
+    "Java" : 1
+    "JavaScript" : 1
+    "TypeScript" : 1
+    "PHP" : 1
+    "HTML" : 1
+    "CSS" : 1
+    "SQL" : 1
+    "MDX" : 1
 ```
 
-> Each bar confirms that I have used the language in professional, academic or independent projects. The chart does not represent proficiency percentages.
+> Equal slices indicate languages I have used in professional, academic or independent projects. They do not represent proficiency percentages.
 
 ---
 
